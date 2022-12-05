@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h2><em><strong>Contact</strong></em></h2>
+    <p>Email: sn.steven.ng@gmail.com</p>
+    <hr size="3" noshade="1">
+    <!--method="post" sends what is written in the text fields to the action mailto email; enctype is text/plain so
+    %+- symbols don't appear-->
+    <form action="mailto:sn.steven.ng@gmail.com" method="post" enctype="text/plain">
+        <label>Name:</label>
+        <input type="text" name="Name" value=""><br><br>
+        <label>Email:</label>
+        <input type="email" name="Email" value=""><br><br>
+        <label for="">Message:</label><br>
+        <textarea name="Message" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
